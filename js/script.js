@@ -30,13 +30,13 @@ $('.card_btn').on('click', function () {
 });
 
 $("input#spezialabo").click(function() {
-    $("input#ifchecked").attr("disabled", !this.checked);
+    $("input.ifchecked").attr("disabled", !this.checked);
     $("input#later").prop('checked', false);
 });
 
 $("input#later").click(function() {
     $("input#spezialabo").prop('checked', false);
-    $("input#ifchecked").attr("disabled", !this.unchecked);
+    $("input.ifchecked").attr("disabled", !this.unchecked);
 
 
 });

@@ -75,7 +75,8 @@ h2 {
 h3 {
   font-family: "Dosis", sans-serif;
   font-size: 1.5em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  text-align: center; }
 
 h4 {
   font-family: "Dosis", sans-serif; }
@@ -282,13 +283,6 @@ header {
     .one_content article p:last-child {
       padding: 0; }
 
-#two h3 {
-  width: 95%;
-  margin: auto; }
-
-form {
-  background: red; }
-
 fieldset label {
   float: none;
   display: block;
@@ -300,12 +294,12 @@ fieldset label {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#anmeldung {
+.anmeldung {
   width: 70%;
   margin: auto;
   background: rgba(255, 255, 255, 0.9);
   padding-top: 3em; }
-  #anmeldung input {
+  .anmeldung input {
     margin-left: 50%;
     transform: translateX(-50%);
     width: 230px;
@@ -315,28 +309,27 @@ fieldset label {
     appearance: none;
     background: none;
     font-size: 0.8em; }
-    #anmeldung input:focus {
+    .anmeldung input:focus {
       outline: none;
       border-bottom: 2px solid #bada55; }
 
-#termine {
+.termine {
   width: 70%;
   margin: auto;
   background: rgba(255, 255, 255, 0.9); }
-  #termine fieldset {
+  .termine fieldset {
     width: 190px;
     margin: auto; }
-  #termine label {
+  .termine label {
     padding-top: 0.2em;
     font-family: "Dosis", sans-serif; }
-  #termine input {
-    display: inline-block;
+  .termine input {
     float: left; }
-  #termine h4 {
+  .termine h4 {
     text-align: center; }
-    #termine h4:last-of-type {
+    .termine h4:last-of-type {
       padding-top: 1em; }
-  #termine button {
+  .termine button {
     margin-left: 50%;
     transform: translateX(-50%);
     width: 180px;
@@ -348,8 +341,14 @@ fieldset label {
     background-color: #ebb96f;
     border: none;
     outline: none; }
-    #termine button:active {
+    .termine button:active {
       box-shadow: none; }
+
+span {
+  width: 100%;
+  background: blue;
+  margin: auto;
+  text-align: center; }
 
 .swiper-container {
   width: 320px;
@@ -401,5 +400,10 @@ fieldset label {
   width: 300px;
   height: 200px;
   background: url("https://unsplash.it/300/200"); }
+
+.ifchecked {
+  margin-bottom: 1em; }
+  .ifchecked:disabled {
+    border-bottom: 2px solid lightgrey; }
 
 /*# sourceMappingURL=style.css.map */

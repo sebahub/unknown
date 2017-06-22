@@ -133,7 +133,7 @@ in unserem Gemüsehof in Bobenheim-Roxheim, Viehweg 17
 <div class="form_bg">
 
 
-<form id="anmeldung">
+<form class="anmeldung">
   <input type="text" name="name" placeholder="Name">
   <br />
   <br />
@@ -158,32 +158,32 @@ in unserem Gemüsehof in Bobenheim-Roxheim, Viehweg 17
 </form>
 
 
-  <form id="termine">
+  <form class="termine">
   <h4>Lieblingstermin für die Cooking Night </h4>
 
 
 
   <fieldset>
-    <input type="radio" id="termin" name="Lieblingstermin" value="2710" />
+    <input type="radio" id="2710" name="Lieblingstermin" value="2710" />
     <label for="termin">Freitag, 27. Oktober 2017</label>
-    <input type="radio" id="termin" name="Lieblingstermin" value="2810" />
+    <input type="radio" id="2810" name="Lieblingstermin" value="2810" />
     <label for="termin">Samstag, 28. Oktober 2017</label>
-    <input type="radio" id="termin" name="Lieblingstermin" value="0311" />
+    <input type="radio" id="0311" name="Lieblingstermin" value="0311" />
     <label for="termin">Freitag, 3. November 2017</label>
-    <input type="radio" id="termin" name="Lieblingstermin" value="0411" />
+    <input type="radio" id="0411" name="Lieblingstermin" value="0411" />
     <label for="termin">Samstag, 4. November 2017</label>
   </fieldset>
 
   <h4>Ersatztermin für die Cooking Night </h4>
 
   <fieldset>
-    <input type="radio" id="etermin" name="Ersatztermin" value="e2710" />
+    <input type="radio" id="e270" name="Ersatztermin" value="e2710" />
     <label for="etermin">Freitag, 27. Oktober 2017</label>
-    <input type="radio" id="etermin" name="Ersatztermin" value="e2810" />
+    <input type="radio" id="e2810" name="Ersatztermin" value="e2810" />
     <label for="etermin">Samstag, 28. Oktober 2017</label>
-    <input type="radio" id="etermin" name="Ersatztermin" value="e0311" />
+    <input type="radio" id="0311" name="Ersatztermin" value="e0311" />
     <label for="etermin">Freitag, 3. November 2017</label>
-    <input type="radio" id="etermin" name="Ersatztermin" value="e0411" />
+    <input type="radio" id="e0411" name="Ersatztermin" value="e0411" />
     <label for="etermin">Samstag, 4. November 2017</label>
   </fieldset>
 
@@ -316,30 +316,26 @@ in unserem Gemüsehof in Bobenheim-Roxheim, Viehweg 17
 <input type="checkbox" value="None" id="spezialabo" name="abo"/>
       <label for="spezialabo">Ich will das Spezial-Abo für die Gemüsekiste in Anspruch nehmen</label>
 
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="ifchecked" required disabled />
+      <form class="anmeldung">
 
-        <label for="name">Vorname</label>
-        <input type="text" id="ifchecked" required disabled />
+        <input type="text" name="name" placeholder="Name" class="ifchecked" required disabled>
 
-        <label for="name">Anschrift</label>
-        <input type="text" id="ifchecked" required disabled />
+        <input type="text" name="name" placeholder="Vorname" class="ifchecked" required disabled>
 
-        <label for="name">E-Mail</label>
-        <input type="text" id="ifchecked" required disabled />
+        <input type="text" name="name" placeholder="Anschrift" class="ifchecked" required disabled>
 
-        <label for="name">Telefon</label>
-        <input type="text" id="ifchecked" disabled />
+        <input type="text" name="name" placeholder="E-Mail" class="ifchecked" required disabled>
 
+        <input type="text" name="name" placeholder="Telefon" class="ifchecked" required disabled>
 
+      </form>
 <h4>Kistengröße</h4>
         <fieldset>
-          <input type="radio" id="ifchecked" name="Ersatztermin" value="e2710" disabled />
+          <input type="radio" class="ifchecked" name="Ersatztermin" value="e2710" disabled />
           <label for="etermin">Ein-</label>
-          <input type="radio" id="ifchecked" name="Ersatztermin" value="e2810" disabled />
+          <input type="radio" class="ifchecked" name="Ersatztermin" value="e2810" disabled />
           <label for="etermin">Zwei-</label>
-          <input type="radio" id="ifchecked" name="Ersatztermin" value="e0311" disabled />
+          <input type="radio" class="ifchecked" name="Ersatztermin" value="e0311" disabled />
           <label for="etermin">Mehrpersonehaushalt</label>
 
         </fieldset>

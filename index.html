@@ -130,36 +130,38 @@ in unserem Gemüsehof in Bobenheim-Roxheim, Viehweg 17
 <h3>Anmeldung</h3>
 
 
+<div class="form_bg">
 
-<form>
-  <label for="name">Name</label>
-  <input id="name" required/>
 
-  <label for="vname">Vorname</label>
-  <input id="vname" required/>
+<form id="anmeldung">
+  <input type="text" name="name" placeholder="Name">
+  <br />
+  <br />
+  <input type="text" name="vname" placeholder="Vorname">
+  <br />
+  <br />
+  <input type="text" name="anschr" placeholder="Anschrift">
+  <br />
+  <br />
+  <input type="text" name="mail" placeholder="E-Mail">
+  <br />
+  <br />
+  <input type="text" name="tel" placeholder="Telefon">
+  <br />
+  <br />
+  <input type="text" name="stdfach" placeholder="Studienfach">
+  <br />
+  <br />
+  <input type="text" name="stdort" placeholder="Studienort">
+  <br />
+  <br />
+</form>
 
-  <label for="anschr">Anschrift</label>
-  <input id="anschr" required/>
 
-  <label for="mail">E-Mail</label>
-  <input id="mail" required/>
-
-  <label for="tel">Telefon</label>
-  <input id="tel"/>
-
-  <label for="stdfach">Studienfach</label>
-  <input id="stdfach"/>
-
-  <label>Studienort
-    <select name="stdort">
-      <option>Worms</option>
-      <option>Mannheim</option>
-      <option>Ludwigshafen</option>
-      <option>Heidelberg</option>
-      <option>Darmstadt</option>
-    </select>
-  </label>
+  <form id="termine">
   <h4>Lieblingstermin für die Cooking Night </h4>
+
+
 
   <fieldset>
     <input type="radio" id="termin" name="Lieblingstermin" value="2710" />
@@ -193,6 +195,8 @@ in unserem Gemüsehof in Bobenheim-Roxheim, Viehweg 17
 
 
 </form>
+</div>
+<div class="clearfix">
 
 </div>
 

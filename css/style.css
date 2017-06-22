@@ -282,6 +282,75 @@ header {
     .one_content article p:last-child {
       padding: 0; }
 
+#two h3 {
+  width: 95%;
+  margin: auto; }
+
+form {
+  background: red; }
+
+fieldset label {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left; }
+
+.form_bg {
+  background: url(../bilder/bg2_big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#anmeldung {
+  width: 70%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding-top: 3em; }
+  #anmeldung input {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    border: none;
+    border: 0;
+    border-bottom: 2px solid #ebb96f;
+    appearance: none;
+    background: none;
+    font-size: 0.8em; }
+    #anmeldung input:focus {
+      outline: none;
+      border-bottom: 2px solid #bada55; }
+
+#termine {
+  width: 70%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9); }
+  #termine fieldset {
+    width: 190px;
+    margin: auto; }
+  #termine label {
+    padding-top: 0.2em;
+    font-family: "Dosis", sans-serif; }
+  #termine input {
+    display: inline-block;
+    float: left; }
+  #termine h4 {
+    text-align: center; }
+    #termine h4:last-of-type {
+      padding-top: 1em; }
+  #termine button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 50;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    background-color: #ebb96f;
+    border: none;
+    outline: none; }
+    #termine button:active {
+      box-shadow: none; }
+
 .swiper-container {
   width: 320px;
   height: 400px;

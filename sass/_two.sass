@@ -1,0 +1,83 @@
+#two
+  h3
+    width: 95%
+    margin: auto
+
+form
+  background: red
+
+fieldset
+  //background: red
+  label
+    float: none
+    display: block
+    //background: green
+    width: 100%
+    text-align: left
+    //display: block
+.form_bg
+  background: url(../bilder/bg2_big.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+#anmeldung
+  //float: left
+  width: 70%
+  margin: auto
+  background: rgba(255, 255, 255, 0.9)
+  padding-top: 3em
+  input
+    margin-left: 50%
+    transform: translateX(-50%)
+    width: 230px
+    border: none
+    border: 0
+    border-bottom: 2px solid $color-accent
+    appearance: none
+    background: none
+    font-size: 0.8em
+
+    &:focus
+      outline: none
+      border-bottom: 2px solid $color-success
+
+
+
+
+
+#termine
+  //padding-left: 15%
+  width: 70%
+  margin: auto
+  background: rgba(255, 255, 255, 0.9)
+
+  fieldset
+    //background: red
+    width: 190px
+    margin: auto
+  label
+    //padding-left: 50%
+    padding-top: 0.2em
+    font-family: $font-paragraph
+    //background: blue
+    //display: inline
+  input
+    display: inline-block
+    float: left
+
+
+
+  h4
+    text-align: center
+    &:last-of-type
+      padding-top: $padding-main
+
+  button
+    margin-left: 50%
+    transform: translateX(-50%)
+    width: 180px
+    height: 50
+    margin-top: 2em
+    margin-bottom: 2em
+    +button-material1
+    border: none
+    outline: none
